@@ -1,0 +1,2495 @@
+{
+    "users": [
+      {
+        "id": "1",
+        "username": "admin",
+        "password": "admin123",
+        "name": "Administrator",
+        "email": "admin@samcovina.com",
+        "role": "ADMIN",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "username": "manager1",
+        "password": "manager123",
+        "name": "John Manager",
+        "email": "manager@samcovina.com",
+        "role": "MANAGER",
+        "department": "BAN GIÁM ĐỐC",
+        "createdAt": "2024-01-02T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "username": "accountant1",
+        "password": "accountant123",
+        "name": "Mary Accountant",
+        "email": "accountant@samcovina.com",
+        "role": "ACCOUNTANT",
+        "department": "KẾ TOÁN",
+        "createdAt": "2024-01-03T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "username": "leader1",
+        "password": "leader123",
+        "name": "David Leader",
+        "email": "leader@samcovina.com",
+        "role": "LEADER",
+        "department": "CƠ KHÍ CONTAINER",
+        "createdAt": "2024-01-04T00:00:00.000Z"
+      }
+    ],
+    "departments": [
+      {
+        "id": "1",
+        "name": "BAN GIÁM ĐỐC",
+        "code": "BGD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "CN ĐÀ NẴNG",
+        "code": "DN",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "CN HẢI PHÒNG",
+        "code": "HP",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "name": "CƠ KHÍ CONTAINER",
+        "code": "CKC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "5",
+        "name": "DEPOT PHÚ HỮU",
+        "code": "DPH",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "6",
+        "name": "DỊCH VỤ VÀ PHỤ TÙNG HASA",
+        "code": "HASA",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "7",
+        "name": "HÀNH CHÍNH NHÂN SỰ",
+        "code": "HCNS",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "8",
+        "name": "KẾ TOÁN",
+        "code": "KT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "9",
+        "name": "VÁN ÉP CONTAINER",
+        "code": "VEC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "10",
+        "name": "XE NÂNG CẢNG",
+        "code": "XNC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "11",
+        "name": "XE NÂNG KHO",
+        "code": "XNK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "12",
+        "name": "XUẤT NHẬP KHẨU",
+        "code": "XNK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "13",
+        "name": "VẬN TẢI ALPHA",
+        "code": "VTA",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "14",
+        "name": "KINH DOANH PNP",
+        "code": "KDPNP",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "15",
+        "name": "VẬN TẢI NÂNG HẠ SAMCO",
+        "code": "SAMCO",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "16",
+        "name": "CƠ KHÍ CHẾ TẠO",
+        "code": "CKCT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "17",
+        "name": "KINH DOANH LỐP",
+        "code": "KDL",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "18",
+        "name": "CN HOA LƯ",
+        "code": "HL",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "19",
+        "name": "THU MUA",
+        "code": "TM",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "20",
+        "name": "VẬN TẢI SAMLAO",
+        "code": "SAMLAO",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "21",
+        "name": "TÀI CHÍNH NGÂN QUỸ",
+        "code": "TCNQ",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "22",
+        "name": "SAM GLOBAL",
+        "code": "SG",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "23",
+        "name": "THIỆN LÝ",
+        "code": "TL",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "24",
+        "name": "NGHIÊN CỨU VÀ PHÁT TRIỂN NLMT",
+        "code": "NLMT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "25",
+        "name": "SAM DEPOT",
+        "code": "SD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "positions": [
+      {
+        "id": "1",
+        "name": "BẢO VỆ",
+        "code": "BV",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "CHUYÊN VIÊN",
+        "code": "CV",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "CÔNG NHÂN",
+        "code": "CN",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "name": "ĐIỀU ĐỘ",
+        "code": "DD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "5",
+        "name": "GĐ",
+        "code": "GD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "6",
+        "name": "GIAO NHẬN",
+        "code": "GN",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "7",
+        "name": "HÀNH CHÍNH",
+        "code": "HC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "8",
+        "name": "KẾ TOÁN KHO",
+        "code": "KTK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "9",
+        "name": "KẾ TOÁN VIÊN",
+        "code": "KTV",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "10",
+        "name": "KHOÁN CHẤN",
+        "code": "KC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "11",
+        "name": "KHOÁN CHẶT",
+        "code": "KCT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "12",
+        "name": "KHOÁN CHẶT NÓC",
+        "code": "KCN",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "13",
+        "name": "KHOÁN SƠN",
+        "code": "KS",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "14",
+        "name": "KỸ SƯ",
+        "code": "KS",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "15",
+        "name": "KỸ THUẬT",
+        "code": "KT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "16",
+        "name": "KỸ THUẬT WEB",
+        "code": "KTW",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "17",
+        "name": "LÁI XE",
+        "code": "LX",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "18",
+        "name": "LAO CÔNG",
+        "code": "LC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "19",
+        "name": "MARKETING",
+        "code": "MKT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "20",
+        "name": "MUA HÀNG",
+        "code": "MH",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "21",
+        "name": "MUA VẬT TƯ",
+        "code": "MVT",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "22",
+        "name": "NHÂN SỰ",
+        "code": "NS",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "23",
+        "name": "NHÂN VIÊN XNK",
+        "code": "XNK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "24",
+        "name": "PGĐ",
+        "code": "PGD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "25",
+        "name": "PURCHASING",
+        "code": "PC",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "26",
+        "name": "SALES",
+        "code": "SL",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "27",
+        "name": "TGĐ",
+        "code": "TGD",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "28",
+        "name": "THỦ KHO",
+        "code": "TK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "29",
+        "name": "TRỢ LÝ",
+        "code": "TL",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "30",
+        "name": "TRƯỞNG BỘ PHẬN",
+        "code": "TBP",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "31",
+        "name": "NHÂN VIÊN KHO",
+        "code": "NVK",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "analytics": {
+      "sessions": {
+        "total": 24000,
+        "growth": 8.5,
+        "avgDuration": "00:18",
+        "avgGrowth": 1.5,
+        "bounceRate": 36.45,
+        "bounceRateGrowth": 8
+      },
+      "visitors": {
+        "total": 1282,
+        "weekly": [
+          {
+            "day": "Sun",
+            "value": 65
+          },
+          {
+            "day": "Mon",
+            "value": 75
+          },
+          {
+            "day": "Tue",
+            "value": 55
+          },
+          {
+            "day": "Wed",
+            "value": 85
+          },
+          {
+            "day": "Thu",
+            "value": 70
+          },
+          {
+            "day": "Fri",
+            "value": 80
+          },
+          {
+            "day": "Sat",
+            "value": 60
+          }
+        ]
+      },
+      "overview": {
+        "monthly": [
+          {
+            "month": "Jan",
+            "value1": 45,
+            "value2": 30
+          },
+          {
+            "month": "Feb",
+            "value1": 52,
+            "value2": 35
+          },
+          {
+            "month": "Mar",
+            "value1": 48,
+            "value2": 25
+          },
+          {
+            "month": "Apr",
+            "value1": 65,
+            "value2": 45
+          },
+          {
+            "month": "May",
+            "value1": 58,
+            "value2": 38
+          },
+          {
+            "month": "Jun",
+            "value1": 72,
+            "value2": 50
+          },
+          {
+            "month": "Jul",
+            "value1": 68,
+            "value2": 45
+          },
+          {
+            "month": "Aug",
+            "value1": 85,
+            "value2": 65
+          },
+          {
+            "month": "Sep",
+            "value1": 78,
+            "value2": 55
+          },
+          {
+            "month": "Oct",
+            "value1": 92,
+            "value2": 70
+          },
+          {
+            "month": "Nov",
+            "value1": 88,
+            "value2": 65
+          },
+          {
+            "month": "Dec",
+            "value1": 95,
+            "value2": 75
+          }
+        ]
+      }
+    },
+    "companies": [
+      {
+        "id": "1",
+        "name": "ALPHA",
+        "code": "ALPHA",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "HOÀNG GIA",
+        "code": "HG",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "PHƯƠNG NAM PHÁT",
+        "code": "PNP",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "name": "SAMCO VINA",
+        "code": "SCV",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "employees": [
+      {
+        "id": "1",
+        "code": "NV001",
+        "firstName": "Nguyễn",
+        "lastName": "Văn A",
+        "gender": "MALE",
+        "dateOfBirth": "1990-01-01",
+        "email": "nguyenvana@samcovina.com",
+        "phone": "0901234567",
+        "address": "123 Đường ABC, Quận 1, TP.HCM",
+        "departmentId": "7",
+        "positionId": "22",
+        "companyId": "4",
+        "startDate": "2023-01-01",
+        "contractInfo": {
+          "probationDate": "2023-01-01",
+          "probationPeriod": 2,
+          "probationSalary": 12000000,
+          "contractDate": "2023-03-01",
+          "officialSalary": 15000000,
+          "contractCompany": "SAMCO VINA"
+        },
+        "bankAccount": {
+          "accountNumber": "1234567890",
+          "accountName": "NGUYEN VAN A",
+          "bankName": "Vietcombank",
+          "bankBranch": "HCM",
+          "bankProvince": "TP.HCM",
+          "bankCode": "VCB"
+        },
+        "emergencyContact": {
+          "name": "Nguyễn Văn B",
+          "phone": "0901234568",
+          "relationship": "Anh trai"
+        },
+        "insuranceInfo": {
+          "taxCode": "1234567890",
+          "dependents": 0,
+          "hasInsurance": true,
+          "socialInsuranceNumber": "1234567890",
+          "socialInsuranceSalary": 15000000,
+          "hasUnion": true,
+          "unionUnit": "SAMCO VINA"
+        },
+        "attendanceInfo": {
+          "fingerprintId": "FP001",
+          "attendanceType": "FINGERPRINT"
+        },
+        "status": "ACTIVE",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "code": "NV002",
+        "firstName": "Trần",
+        "lastName": "Thị B",
+        "gender": "FEMALE",
+        "dateOfBirth": "1992-05-15",
+        "email": "tranthib@samcovina.com",
+        "phone": "0909876543",
+        "address": "456 Đường XYZ, Quận 2, TP.HCM",
+        "departmentId": "8",
+        "positionId": "9",
+        "companyId": "4",
+        "startDate": "2023-02-01",
+        "contractInfo": {
+          "probationDate": "2023-02-01",
+          "probationPeriod": 2,
+          "probationSalary": 10000000,
+          "contractDate": "2023-04-01",
+          "officialSalary": 12000000,
+          "contractCompany": "SAMCO VINA"
+        },
+        "bankAccount": {
+          "accountNumber": "9876543210",
+          "accountName": "TRAN THI B",
+          "bankName": "Techcombank",
+          "bankBranch": "HCM",
+          "bankProvince": "TP.HCM",
+          "bankCode": "TCB"
+        },
+        "emergencyContact": {
+          "name": "Trần Văn C",
+          "phone": "0909876544",
+          "relationship": "Chồng"
+        },
+        "insuranceInfo": {
+          "taxCode": "9876543210",
+          "dependents": 1,
+          "hasInsurance": true,
+          "socialInsuranceNumber": "9876543210",
+          "socialInsuranceSalary": 12000000,
+          "hasUnion": true,
+          "unionUnit": "SAMCO VINA"
+        },
+        "attendanceInfo": {
+          "fingerprintId": "FP002",
+          "attendanceType": "FINGERPRINT"
+        },
+        "status": "ACTIVE",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "code": "NV003",
+        "firstName": "Lê",
+        "lastName": "Văn C",
+        "gender": "MALE",
+        "dateOfBirth": "1988-12-20",
+        "email": "levanc@samcovina.com",
+        "phone": "0912345678",
+        "address": "789 Đường DEF, Quận 7, TP.HCM",
+        "departmentId": "4",
+        "positionId": "3",
+        "companyId": "4",
+        "startDate": "2023-03-01",
+        "contractInfo": {
+          "probationDate": "2023-03-01",
+          "probationPeriod": 2,
+          "probationSalary": 8000000,
+          "contractDate": "2023-05-01",
+          "officialSalary": 10000000,
+          "contractCompany": "SAMCO VINA"
+        },
+        "bankAccount": {
+          "accountNumber": "5678901234",
+          "accountName": "LE VAN C",
+          "bankName": "BIDV",
+          "bankBranch": "HCM",
+          "bankProvince": "TP.HCM",
+          "bankCode": "BIDV"
+        },
+        "emergencyContact": {
+          "name": "Lê Thị D",
+          "phone": "0912345679",
+          "relationship": "Vợ"
+        },
+        "insuranceInfo": {
+          "taxCode": "5678901234",
+          "dependents": 2,
+          "hasInsurance": true,
+          "socialInsuranceNumber": "5678901234",
+          "socialInsuranceSalary": 10000000,
+          "hasUnion": true,
+          "unionUnit": "SAMCO VINA"
+        },
+        "attendanceInfo": {
+          "fingerprintId": "FP003",
+          "attendanceType": "FINGERPRINT"
+        },
+        "status": "ACTIVE",
+        "createdAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "work-shifts": [
+      {
+        "id": "1",
+        "name": "Ca Hành Chính",
+        "startTime": "08:00",
+        "endTime": "17:00",
+        "breakTime": 60,
+        "isDefault": true,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Ca Sáng",
+        "startTime": "06:00",
+        "endTime": "14:00",
+        "breakTime": 30,
+        "isDefault": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "Ca Chiều",
+        "startTime": "14:00",
+        "endTime": "22:00",
+        "breakTime": 30,
+        "isDefault": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "name": "Ca Đêm",
+        "startTime": "22:00",
+        "endTime": "06:00",
+        "breakTime": 45,
+        "isDefault": false,
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "attendance-rules": [
+      {
+        "id": "1",
+        "name": "Số ngày nghỉ phép tối đa/năm",
+        "value": 12,
+        "description": "Số ngày nghỉ phép có lương tối đa trong một năm",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "name": "Số giờ làm việc/ngày",
+        "value": 8,
+        "description": "Số giờ làm việc tiêu chuẩn trong một ngày",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "name": "Số ngày làm việc/tuần",
+        "value": 6,
+        "description": "Số ngày làm việc tiêu chuẩn trong một tuần",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "name": "Thời gian đi muộn tối đa (phút)",
+        "value": 15,
+        "description": "Thời gian đi muộn tối đa được chấp nhận trong một ngày",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "allowance-criterias": [
+      {
+        "id": 1,
+        "name": "Phụ cấp ăn trưa",
+        "type": "MEAL",
+        "description": "Phụ cấp ăn trưa hàng tháng",
+        "amount": 800000,
+        "isPercentage": false,
+        "departmentId": null,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "name": "Phụ cấp xăng xe",
+        "type": "TRANSPORT",
+        "description": "Phụ cấp xăng xe hàng tháng",
+        "amount": 500000,
+        "isPercentage": false,
+        "departmentId": null,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "name": "Phụ cấp trách nhiệm",
+        "type": "RESPONSIBILITY",
+        "description": "Phụ cấp trách nhiệm tính theo % lương cơ bản",
+        "amount": 10,
+        "isPercentage": true,
+        "departmentId": 7,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "allowance-details": [
+      {
+        "id": 1,
+        "criteriaId": 1,
+        "positionId": 22,
+        "amount": 800000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "criteriaId": 2,
+        "positionId": 17,
+        "amount": 500000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "criteriaId": 3,
+        "positionId": 30,
+        "amount": 15,
+        "isPercentage": true,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 4,
+        "criteriaId": 1,
+        "positionId": 9,
+        "amount": 800000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 5,
+        "criteriaId": 2,
+        "positionId": 26,
+        "amount": 1000000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 6,
+        "criteriaId": 3,
+        "positionId": 24,
+        "amount": 20,
+        "isPercentage": true,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 7,
+        "criteriaId": 1,
+        "positionId": 2,
+        "amount": 800000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 8,
+        "criteriaId": 2,
+        "positionId": 20,
+        "amount": 800000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 9,
+        "criteriaId": 3,
+        "positionId": 5,
+        "amount": 25,
+        "isPercentage": true,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 10,
+        "criteriaId": 1,
+        "positionId": 14,
+        "amount": 800000,
+        "isPercentage": false,
+        "startDate": "2024-01-01",
+        "endDate": null,
+        "status": "active",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": "f8b0",
+        "criteriaId": 1,
+        "positionId": "5",
+        "departmentId": "1",
+        "amount": 50000,
+        "status": "active",
+        "isPercentage": false,
+        "createdAt": "2025-04-25T18:51:26.077Z",
+        "updatedAt": "2025-04-25T18:51:26.077Z"
+      }
+    ],
+    "deduction-criterias": [
+      {
+        "id": 1,
+        "name": "Đi muộn",
+        "description": "Khấu trừ khi đi muộn",
+        "departmentId": null,
+        "amount": 50000,
+        "type": "FIXED",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "name": "Về sớm",
+        "description": "Khấu trừ khi về sớm",
+        "departmentId": null,
+        "amount": 50000,
+        "type": "FIXED",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "name": "Bảo hiểm xã hội",
+        "description": "Khấu trừ BHXH",
+        "departmentId": null,
+        "amount": 8,
+        "type": "PERCENTAGE",
+        "createdAt": "2024-01-01T00:00:00.000Z",
+        "updatedAt": "2024-01-01T00:00:00.000Z"
+      }
+    ],
+    "deduction-details": [
+      {
+        "id": 1,
+        "employeeId": 1,
+        "criteriaId": 1,
+        "amount": 50000,
+        "note": "Đi muộn 15 phút",
+        "month": 3,
+        "year": 2024,
+        "createdAt": "2024-03-19T00:00:00.000Z",
+        "updatedAt": "2024-03-19T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "employeeId": 2,
+        "criteriaId": 3,
+        "amount": 960000,
+        "note": "BHXH tháng 3/2024",
+        "month": 3,
+        "year": 2024,
+        "createdAt": "2024-03-31T00:00:00.000Z",
+        "updatedAt": "2024-03-31T00:00:00.000Z"
+      }
+    ],
+    "attendances": [
+      {
+        "id": "1",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "date": "2024-03-18",
+        "type": "WORK",
+        "status": "APPROVED",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-18T08:00:00.000Z",
+        "updatedAt": "2024-03-18T17:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "date": "2024-03-18",
+        "type": "WORK",
+        "status": "APPROVED",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-18T08:00:00.000Z",
+        "updatedAt": "2024-03-18T17:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "date": "2024-03-18",
+        "type": "LEAVE",
+        "status": "APPROVED",
+        "note": "Nghỉ phép có phép",
+        "createdAt": "2024-03-17T10:00:00.000Z",
+        "updatedAt": "2024-03-17T10:30:00.000Z"
+      },
+      {
+        "id": "4",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "date": "2024-03-19",
+        "type": "WORK",
+        "status": "PENDING",
+        "note": "Đi muộn 15 phút - có lý do",
+        "createdAt": "2024-03-19T08:15:00.000Z",
+        "updatedAt": "2024-03-19T17:00:00.000Z"
+      },
+      {
+        "id": "5",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "date": "2024-03-19",
+        "type": "SICK",
+        "status": "PENDING",
+        "note": "Nghỉ ốm - có đơn xin phép",
+        "createdAt": "2024-03-19T07:30:00.000Z",
+        "updatedAt": "2024-03-19T07:30:00.000Z"
+      },
+      {
+        "id": "6",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "date": "2024-03-19",
+        "type": "OVERTIME",
+        "status": "APPROVED",
+        "note": "Tăng ca 2 tiếng",
+        "createdAt": "2024-03-19T08:00:00.000Z",
+        "updatedAt": "2024-03-19T19:00:00.000Z"
+      },
+      {
+        "id": "7",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "date": "2024-03-20",
+        "type": "WORK",
+        "status": "APPROVED",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-20T08:00:00.000Z",
+        "updatedAt": "2024-03-20T17:00:00.000Z"
+      },
+      {
+        "id": "8",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "date": "2024-03-20",
+        "type": "UNPAID",
+        "status": "REJECTED",
+        "note": "Nghỉ không phép",
+        "createdAt": "2024-03-20T10:00:00.000Z",
+        "updatedAt": "2024-03-20T10:30:00.000Z"
+      },
+      {
+        "id": "9",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "date": "2024-03-20",
+        "type": "WORK",
+        "status": "APPROVED",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-20T08:00:00.000Z",
+        "updatedAt": "2024-03-20T17:00:00.000Z"
+      },
+      {
+        "id": "10",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "date": "2024-03-21",
+        "type": "OVERTIME",
+        "status": "PENDING",
+        "note": "Đăng ký tăng ca 3 tiếng",
+        "createdAt": "2024-03-21T08:00:00.000Z",
+        "updatedAt": "2024-03-21T20:00:00.000Z"
+      }
+    ],
+    "monthly-attendances": [
+      {
+        "id": "1",
+        "month": 3,
+        "year": 2024,
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "position": "NHÂN SỰ",
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X",
+          "11": "X",
+          "12": "X",
+          "13": "OFF",
+          "14": "OFF",
+          "15": "X",
+          "16": "X",
+          "17": "X",
+          "18": "X",
+          "19": "0.5X",
+          "20": "X",
+          "21": "X"
+        },
+        "totalWorkDays": 15.5,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2024-03-01T00:00:00.000Z",
+        "updatedAt": "2024-03-21T00:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "month": 3,
+        "year": 2024,
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "position": "KẾ TOÁN VIÊN",
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X",
+          "11": "X",
+          "12": "X",
+          "13": "OFF",
+          "14": "OFF",
+          "15": "X",
+          "16": "X",
+          "17": "X",
+          "18": "X",
+          "19": "BH",
+          "20": "KL",
+          "21": "X"
+        },
+        "totalWorkDays": 15,
+        "totalLeaveDays": 1,
+        "totalUnpaidDays": 1,
+        "createdAt": "2024-03-01T00:00:00.000Z",
+        "updatedAt": "2024-03-21T00:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "month": 3,
+        "year": 2024,
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "position": "CÔNG NHÂN",
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X",
+          "11": "X",
+          "12": "X",
+          "13": "OFF",
+          "14": "OFF",
+          "15": "X",
+          "16": "X",
+          "17": "X",
+          "18": "P",
+          "19": "X",
+          "20": "X",
+          "21": "X"
+        },
+        "totalWorkDays": 16,
+        "totalLeaveDays": 1,
+        "totalUnpaidDays": 0,
+        "createdAt": "2024-03-01T00:00:00.000Z",
+        "updatedAt": "2024-03-21T00:00:00.000Z"
+      },
+      {
+        "id": "5959",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:52:05.822Z",
+        "updatedAt": "2025-04-25T17:52:05.822Z"
+      },
+      {
+        "id": "a844",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {},
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:52:08.778Z",
+        "updatedAt": "2025-04-25T17:52:08.778Z"
+      },
+      {
+        "id": "c878",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:55:34.054Z",
+        "updatedAt": "2025-04-25T17:55:34.054Z"
+      },
+      {
+        "id": "5263",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:55:38.913Z",
+        "updatedAt": "2025-04-25T17:55:38.913Z"
+      },
+      {
+        "id": "f8a1",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:55:40.726Z",
+        "updatedAt": "2025-04-25T17:55:40.726Z"
+      },
+      {
+        "id": "1132",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "3": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:55:45.364Z",
+        "updatedAt": "2025-04-25T17:55:45.364Z"
+      },
+      {
+        "id": "f8b2",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:56:07.807Z",
+        "updatedAt": "2025-04-25T17:56:07.807Z"
+      },
+      {
+        "id": "823c",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "4": "0.5X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:56:11.760Z",
+        "updatedAt": "2025-04-25T17:56:11.760Z"
+      },
+      {
+        "id": "7dee",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:56:16.149Z",
+        "updatedAt": "2025-04-25T17:56:16.149Z"
+      },
+      {
+        "id": "40cb",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "4": "0.5X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:56:40.251Z",
+        "updatedAt": "2025-04-25T17:56:40.251Z"
+      },
+      {
+        "id": "997a",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:09.402Z",
+        "updatedAt": "2025-04-25T17:58:09.402Z"
+      },
+      {
+        "id": "27b9",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF",
+          "6": "OFF"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:13.994Z",
+        "updatedAt": "2025-04-25T17:58:13.994Z"
+      },
+      {
+        "id": "b27b",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF",
+          "6": "OFF",
+          "7": "OFF"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:22.592Z",
+        "updatedAt": "2025-04-25T17:58:22.592Z"
+      },
+      {
+        "id": "00b4",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:25.170Z",
+        "updatedAt": "2025-04-25T17:58:25.170Z"
+      },
+      {
+        "id": "6f79",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "4": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:29.277Z",
+        "updatedAt": "2025-04-25T17:58:29.277Z"
+      },
+      {
+        "id": "ee71",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "4": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:31.082Z",
+        "updatedAt": "2025-04-25T17:58:31.082Z"
+      },
+      {
+        "id": "1c18",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "5": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:32.770Z",
+        "updatedAt": "2025-04-25T17:58:32.770Z"
+      },
+      {
+        "id": "82ab",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T17:58:34.560Z",
+        "updatedAt": "2025-04-25T17:58:34.560Z"
+      },
+      {
+        "id": "d7e3",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "3": "X",
+          "5": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:34.028Z",
+        "updatedAt": "2025-04-25T19:23:34.028Z"
+      },
+      {
+        "id": "ebf4",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "5": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:35.938Z",
+        "updatedAt": "2025-04-25T19:23:35.938Z"
+      },
+      {
+        "id": "92ca",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:37.934Z",
+        "updatedAt": "2025-04-25T19:23:37.934Z"
+      },
+      {
+        "id": "fa5b",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:39.694Z",
+        "updatedAt": "2025-04-25T19:23:39.694Z"
+      },
+      {
+        "id": "2a08",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:41.272Z",
+        "updatedAt": "2025-04-25T19:23:41.272Z"
+      },
+      {
+        "id": "6044",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:42.954Z",
+        "updatedAt": "2025-04-25T19:23:42.954Z"
+      },
+      {
+        "id": "3398",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:44.570Z",
+        "updatedAt": "2025-04-25T19:23:44.570Z"
+      },
+      {
+        "id": "8949",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:46.069Z",
+        "updatedAt": "2025-04-25T19:23:46.069Z"
+      },
+      {
+        "id": "3fb4",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:47.507Z",
+        "updatedAt": "2025-04-25T19:23:47.507Z"
+      },
+      {
+        "id": "b7fe",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:48.952Z",
+        "updatedAt": "2025-04-25T19:23:48.952Z"
+      },
+      {
+        "id": "c27e",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:50.278Z",
+        "updatedAt": "2025-04-25T19:23:50.278Z"
+      },
+      {
+        "id": "6c4c",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:51.665Z",
+        "updatedAt": "2025-04-25T19:23:51.665Z"
+      },
+      {
+        "id": "bf12",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:53.314Z",
+        "updatedAt": "2025-04-25T19:23:53.314Z"
+      },
+      {
+        "id": "9381",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "0.5X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:56.477Z",
+        "updatedAt": "2025-04-25T19:23:56.477Z"
+      },
+      {
+        "id": "fc5a",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:58.458Z",
+        "updatedAt": "2025-04-25T19:23:58.458Z"
+      },
+      {
+        "id": "4529",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "OFF",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:23:59.745Z",
+        "updatedAt": "2025-04-25T19:23:59.745Z"
+      },
+      {
+        "id": "9c28",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "0.5X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:00.945Z",
+        "updatedAt": "2025-04-25T19:24:00.945Z"
+      },
+      {
+        "id": "452d",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:02.438Z",
+        "updatedAt": "2025-04-25T19:24:02.438Z"
+      },
+      {
+        "id": "b19c",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "0.5X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "0.5X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:06.008Z",
+        "updatedAt": "2025-04-25T19:24:06.008Z"
+      },
+      {
+        "id": "1079",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "0.5X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:10.067Z",
+        "updatedAt": "2025-04-25T19:24:10.067Z"
+      },
+      {
+        "id": "663b",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "KL",
+          "6": "OFF",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:18.977Z",
+        "updatedAt": "2025-04-25T19:24:18.977Z"
+      },
+      {
+        "id": "6fb4",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "KL",
+          "6": "0.5KL",
+          "7": "OFF",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:23.284Z",
+        "updatedAt": "2025-04-25T19:24:23.284Z"
+      },
+      {
+        "id": "b79d",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "KL",
+          "6": "0.5KL",
+          "7": "X",
+          "8": "X",
+          "9": "X",
+          "10": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T19:24:28.189Z",
+        "updatedAt": "2025-04-25T19:24:28.189Z"
+      },
+      {
+        "id": "d60e",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "7",
+        "position": "22",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "L",
+          "3": "X",
+          "4": "L",
+          "5": "KL",
+          "6": "0.5KL",
+          "7": "X",
+          "8": "X",
+          "9": "X",
+          "10": "X",
+          "11": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T20:27:45.543Z",
+        "updatedAt": "2025-04-25T20:27:45.543Z"
+      },
+      {
+        "id": "2b1e",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "8",
+        "position": "9",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "0.5X",
+          "4": "X",
+          "5": "X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "0.5X",
+          "10": "X",
+          "11": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T20:27:46.815Z",
+        "updatedAt": "2025-04-25T20:27:46.815Z"
+      },
+      {
+        "id": "b51f",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "4",
+        "position": "3",
+        "month": 4,
+        "year": 2025,
+        "records": {
+          "1": "X",
+          "2": "X",
+          "3": "X",
+          "4": "X",
+          "5": "0.5X",
+          "6": "X",
+          "7": "X",
+          "8": "X",
+          "9": "X",
+          "10": "X",
+          "11": "X"
+        },
+        "totalWorkDays": 0,
+        "totalLeaveDays": 0,
+        "totalUnpaidDays": 0,
+        "createdAt": "2025-04-25T20:27:48.058Z",
+        "updatedAt": "2025-04-25T20:27:48.058Z"
+      }
+    ],
+    "daily-attendances": [
+      {
+        "id": "1",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "position": "NHÂN SỰ",
+        "date": "2024-03-18",
+        "symbol": "X",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-18T08:00:00.000Z",
+        "updatedAt": "2024-03-18T17:00:00.000Z"
+      },
+      {
+        "id": "2",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "position": "KẾ TOÁN VIÊN",
+        "date": "2024-03-18",
+        "symbol": "X",
+        "note": "Đi làm đúng giờ",
+        "createdAt": "2024-03-18T08:00:00.000Z",
+        "updatedAt": "2024-03-18T17:00:00.000Z"
+      },
+      {
+        "id": "3",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "position": "CÔNG NHÂN",
+        "date": "2024-03-18",
+        "symbol": "P",
+        "note": "Nghỉ phép có phép",
+        "createdAt": "2024-03-18T00:00:00.000Z",
+        "updatedAt": "2024-03-18T00:00:00.000Z"
+      },
+      {
+        "id": "4",
+        "employeeId": "1",
+        "employeeCode": "NV001",
+        "employeeName": "Nguyễn Văn A",
+        "department": "HÀNH CHÍNH NHÂN SỰ",
+        "position": "NHÂN SỰ",
+        "date": "2024-03-19",
+        "symbol": "0.5X",
+        "note": "Đi muộn 15 phút - có lý do",
+        "createdAt": "2024-03-19T08:15:00.000Z",
+        "updatedAt": "2024-03-19T17:00:00.000Z"
+      },
+      {
+        "id": "5",
+        "employeeId": "2",
+        "employeeCode": "NV002",
+        "employeeName": "Trần Thị B",
+        "department": "KẾ TOÁN",
+        "position": "KẾ TOÁN VIÊN",
+        "date": "2024-03-19",
+        "symbol": "BH",
+        "note": "Nghỉ ốm - có đơn xin phép",
+        "createdAt": "2024-03-19T00:00:00.000Z",
+        "updatedAt": "2024-03-19T00:00:00.000Z"
+      },
+      {
+        "id": "6",
+        "employeeId": "3",
+        "employeeCode": "NV003",
+        "employeeName": "Lê Văn C",
+        "department": "CƠ KHÍ CONTAINER",
+        "position": "CÔNG NHÂN",
+        "date": "2024-03-19",
+        "symbol": "X",
+        "note": "Đi làm đúng giờ + tăng ca 2 tiếng",
+        "createdAt": "2024-03-19T08:00:00.000Z",
+        "updatedAt": "2024-03-19T19:00:00.000Z"
+      }
+    ],
+    "salary": [
+      {
+        "id": "1",
+        "employeeId": "1",
+        "month": 4,
+        "year": 2024,
+        "employee": {
+          "identityNumber": "079123456789",
+          "firstName": "Văn A",
+          "lastName": "Nguyễn",
+          "department": {
+            "name": "HÀNH CHÍNH NHÂN SỰ"
+          },
+          "position": {
+            "name": "NHÂN VIÊN HÀNH CHÍNH"
+          }
+        },
+        "standardWorkDays": 22,
+        "workDays": 20,
+        "leaveDays": 1,
+        "policyLeaveDays": 0,
+        "insuranceLeaveDays": 0,
+        "unpaidLeaveDays": 1,
+        "weekendDays": 0,
+        "businessTripDays": 0,
+        "overtimeDays": 2,
+        "travelDays": 0,
+        "externalTravelDays": 0,
+        "productivity": 95,
+        "allowances": {
+          "attendance": 500000,
+          "nightShift": 0,
+          "other": 0,
+          "meal": 800000,
+          "bonus": 1000000,
+          "compensation": 0
+        },
+        "deductions": {
+          "violation": 0,
+          "socialInsurance": 800000,
+          "unionFee": 50000,
+          "advance": 0,
+          "other": 0
+        }
+      },
+      {
+        "id": "2",
+        "employeeId": "1",
+        "month": 4,
+        "year": 2025,
+        "employee": {
+          "identityNumber": "079123456789",
+          "firstName": "Văn A",
+          "lastName": "Nguyễn",
+          "department": {
+            "name": "HÀNH CHÍNH NHÂN SỰ"
+          },
+          "position": {
+            "name": "NHÂN VIÊN HÀNH CHÍNH"
+          }
+        },
+        "standardWorkDays": 22,
+        "workDays": 18,
+        "leaveDays": 2,
+        "policyLeaveDays": 0,
+        "insuranceLeaveDays": 0,
+        "unpaidLeaveDays": 2,
+        "weekendDays": 0,
+        "businessTripDays": 0,
+        "overtimeDays": 0,
+        "travelDays": 0,
+        "externalTravelDays": 0,
+        "productivity": 90,
+        "allowances": {
+          "attendance": 500000,
+          "nightShift": 0,
+          "other": 0,
+          "meal": 800000,
+          "bonus": 500000,
+          "compensation": 0
+        },
+        "deductions": {
+          "violation": 100000,
+          "socialInsurance": 800000,
+          "unionFee": 50000,
+          "advance": 0,
+          "other": 0
+        }
+      },
+      {
+        "id": "3",
+        "employeeId": "2",
+        "month": 4,
+        "year": 2025,
+        "employee": {
+          "identityNumber": "079987654321",
+          "firstName": "Thị B",
+          "lastName": "Trần",
+          "department": {
+            "name": "KẾ TOÁN"
+          },
+          "position": {
+            "name": "KẾ TOÁN VIÊN"
+          }
+        },
+        "standardWorkDays": 22,
+        "workDays": 19,
+        "leaveDays": 0,
+        "policyLeaveDays": 0,
+        "insuranceLeaveDays": 0,
+        "unpaidLeaveDays": 0,
+        "weekendDays": 0,
+        "businessTripDays": 0,
+        "overtimeDays": 1,
+        "travelDays": 0,
+        "externalTravelDays": 0,
+        "productivity": 98,
+        "allowances": {
+          "attendance": 500000,
+          "nightShift": 0,
+          "other": 0,
+          "meal": 800000,
+          "bonus": 1200000,
+          "compensation": 0
+        },
+        "deductions": {
+          "violation": 0,
+          "socialInsurance": 700000,
+          "unionFee": 50000,
+          "advance": 0,
+          "other": 0
+        }
+      },
+      {
+        "id": "4",
+        "employeeId": "3",
+        "month": 4,
+        "year": 2025,
+        "employee": {
+          "identityNumber": "079246813579",
+          "firstName": "Văn C",
+          "lastName": "Lê",
+          "department": {
+            "name": "CƠ KHÍ CONTAINER"
+          },
+          "position": {
+            "name": "CÔNG NHÂN"
+          }
+        },
+        "standardWorkDays": 22,
+        "workDays": 20,
+        "leaveDays": 0,
+        "policyLeaveDays": 0,
+        "insuranceLeaveDays": 0,
+        "unpaidLeaveDays": 0,
+        "weekendDays": 0,
+        "businessTripDays": 0,
+        "overtimeDays": 3,
+        "travelDays": 0,
+        "externalTravelDays": 0,
+        "productivity": 100,
+        "allowances": {
+          "attendance": 500000,
+          "nightShift": 300000,
+          "other": 0,
+          "meal": 800000,
+          "bonus": 1500000,
+          "compensation": 0
+        },
+        "deductions": {
+          "violation": 0,
+          "socialInsurance": 600000,
+          "unionFee": 50000,
+          "advance": 0,
+          "other": 0
+        }
+      }
+    ]
+  }
